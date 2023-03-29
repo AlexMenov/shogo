@@ -1,0 +1,231 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 350px;
+}
+
+.login-form h2 {
+    margin-top: 0;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.login-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.login-form .error-message {
+    color: #ff0000;
+    margin-bottom: 15px;
+}
+
+.logout-btn {
+    display: inline-block;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    text-decoration: none;
+}
+
+.logout-btn:hover {
+    background-color: #555;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    width: 500px;
+}
+
+.links-wrapper a {
+    color: #000;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.product-form {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-input {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+textarea.form-input {
+    height: 100px;
+}
+
+.form-submit {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: #3e8e41;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.product-table th,
+.product-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.product-table th {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+.product-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.product-id,
+.product-position,
+.product-articul {
+    width: 50px;
+}
+
+.product-url,
+.product-name,
+.product-content {
+    width: 200px;
+}
+
+.product-price,
+.product-price-old {
+    width: 100px;
+    text-align: right;
+}
+
+.product-notice {
+    width: 150px;
+}
+
+.product-visible {
+    width: 50px;
+    text-align: center;
+}
+
+.product-notice {
+    font-style: italic;
+    color: #999;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    text-align: center;
+}
+.product-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card img {
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.product-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-card p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.product-card .article {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.product-card .remarks {
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
